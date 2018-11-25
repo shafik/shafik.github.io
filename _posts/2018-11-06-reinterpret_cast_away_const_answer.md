@@ -11,4 +11,4 @@ It is ill-formed, reinterpret_cast is not allowed to cast away constness [\[expr
 
 Using it over C-style cast catches errors and clarifies intent `-Wold-style-cast` FTW!
 
-[Obligatory godbolt](godbolt.org/z/RbUQ5g)
+[Obligatory godbolt](https://godbolt.org/z/RbUQ5g)
