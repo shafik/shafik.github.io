@@ -1,4 +1,57 @@
-theme: jekyll-theme-slate
-twitter_username: shafikyaghmour 
-stackoverflow_id: 1708801 
-github_username: shafik 
+title: Shafik Yaghmour's Blog 
+description: Blog about C++, C, Undefined Behavior and Compilers
+author: Shafik Yaghmour
+github: https://github.com/shafik
+about: Compiler Dev(LLDB) interested in C++, C, compilers and undefined behavior.
+disqus_shortname:  
+google_analytics: UA-129799970-1
+avatar_url: /static/img/avatar.jpg
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/shafikyaghmour"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/shafik-yaghmour-1a042b1/"
+    - icon: fa-stack-exchange
+      link: "https://stackoverflow.com/users/1708801"
+    - icon: fa-github
+      link: "https://github.com/shafik"
+
+share:
+  twitter_username: shafikyaghmour 
+  fb_appid:
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://shafik.github.io/"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
