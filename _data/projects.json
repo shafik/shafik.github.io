@@ -1,0 +1,17 @@
+[
+	{
+		"slug": "LLDB",
+		"name": "LLDB",
+		"image": "placeholder.jpg",
+		"url": "https://github.com/llvm-mirror/lldb",
+		"date": "",
+		"tags": ["LLDB","LLVM","C++"]
+	},
+	{
+		"name": "Listing of C++ Youtube channels for conferences, user groups and misc.",
+		"image": "placeholder.jpg",
+		"url": "https://github.com/shafik/cpp_youtube_channels",
+		"date": "",
+		"tags": ["C++"]
+	},
+]
