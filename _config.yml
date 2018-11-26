@@ -1,9 +1,9 @@
-title: Shafik Yaghmour's Blog 
+title: Shafik Yaghmour's Blog
 description: Blog about C++, C, Undefined Behavior and Compilers
 author: Shafik Yaghmour
 github: https://github.com/shafik
 about: Compiler Dev(LLDB) interested in C++, C, compilers and undefined behavior.
-disqus_shortname: cpp_and_ub_shafik 
+disqus_shortname: cpp_and_ub_shafik
 google_analytics: UA-129799970-1
 avatar_url: /static/img/avatar.jpg
 
@@ -28,7 +28,7 @@ social:
       link: "https://github.com/shafik"
 
 share:
-  twitter_username: shafikyaghmour 
+  twitter_username: shafikyaghmour
   fb_appid:
 
 urls:
