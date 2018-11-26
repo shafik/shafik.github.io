@@ -1,7 +1,6 @@
 ---
 layout: default
 title: C++ Poll Answer for November 6th 2018 
-twitter_share_title: CPlusPlus Poll Answer for November 6th 2018 
 ---
 
 It is ill-formed, reinterpret_cast is not allowed to cast away constness [\[expr.reinterpret.cast\]p2](http://eel.is/c++draft/expr.reinterpret.cast#2)

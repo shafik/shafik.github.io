@@ -1,8 +1,7 @@
 ---
 layout: default
 categories: [polls]
-title: C++ Poll for November 6th 2018 
-twitter_share_title: CPlusPlus Poll for November 6th 2018 
+title: C++ Poll for November 6th 2018, reinterpret_cast and string literals 
 ---
 
 # C++ Poll for November 6th 2018 
