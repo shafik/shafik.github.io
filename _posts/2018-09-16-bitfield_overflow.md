@@ -1,6 +1,6 @@
 ---
 layout: post 
-categories: [polls, undefined behavior, C++, bit-fields]
+categories: [polls,undefined behavior,C++,bit-fields]
 title: C++ Poll for September 16th 2018, Post-increment and bit-field overflow 
 ---
 

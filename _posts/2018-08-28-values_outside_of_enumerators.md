@@ -1,6 +1,6 @@
 ---
 layout: post 
-categories: [polls]
+categories: [polls, undefined behavior, C++]
 title: C++ Poll for August 28th 2018, Values outside of Enumerators 
 ---
 

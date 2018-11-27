@@ -1,6 +1,6 @@
 ---
 layout: post 
-categories: [polls]
+categories: [polls, C++]
 title: C++ Poll for November 6th 2018, reinterpret_cast and string literals 
 ---
 
