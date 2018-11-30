@@ -1,5 +1,6 @@
 ---
 layout: default
+categories: [poll answers] 
 title: C++ Poll Answer for June 18th 2018 
 ---
 

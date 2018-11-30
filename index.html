@@ -8,9 +8,9 @@ layout: default
 
   <ol class="posts">
     {% for post in paginator.posts %}
-    {% if post.categories contains "polls" %}
+    {% unless post.categories contains "poll answers" %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
-    {% endif %}
+    {% endunless %}
     {% endfor %}
   </ol>
 
