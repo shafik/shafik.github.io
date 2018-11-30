@@ -1,7 +1,7 @@
 ---
 layout: post 
 categories: [poetry, undefined behavior, C++, compilers]
-title: C++ Poll for November 29th 2018, This is Just to Say for C++ Compilers
+title: This is Just to Say for C++ Compilers
 ---
 
 This Is Just to Say
