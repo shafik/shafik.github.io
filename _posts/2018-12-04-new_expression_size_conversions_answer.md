@@ -21,12 +21,6 @@ shall evaluate to a strictly positive value. The expression in a noptr-new-decla
 but new float[5][n] is ill-formed (because n is not a constant expression).
 — end example\] 
 
-which does not allow [narrowing conversions](http://eel.is/c++draft/dcl.init.list#def:narrowing_conversion):
-
-> A narrowing conversion is an implicit conversion
->
->- (7.1) from a floating-point type to an integer type, or
->
->...
+which does not allow [floating point to floating point to integral conversions](http://eel.is/c++draft/conv.fpint#1):
 
 godbolt [Case A](https://godbolt.org/z/jbP3Z3) and [Case B](https://godbolt.org/z/pM7LRU)
