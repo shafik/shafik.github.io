@@ -1,7 +1,7 @@
 ---
 layout: post 
 categories: [C++, undefined behavior]
-title: Exploring undefined behavior using constexpr 
+title: Exploring Undefined Behavior Using Constexpr 
 ---
 
 # Exploring undefined behavior using constexpr
