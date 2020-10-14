@@ -32,7 +32,7 @@ saying hello. The whole clicking on a table and starting a conversation felt a b
 What about the talks? There were a lot of great talks and it is hard to pick but I am going to try and list my five
 must see talks and why, I also include a link to my live tweets on each talk:
 
-- [Dynamic Polymorphism with Metaclasses and Code Injection](https://twitter.com/shafikyaghmour/status/1306256011028643841)
+- [Dynamic Polymorphism with Metaclasses and Code Injection](https://twitter.com/shafikyaghmour/status/1306256011028643841)([video](https://www.youtube.com/watch?v=8c6BAQcYF_E))
 
   [@TartanLlama](https://twitter.com/TartanLlama) talked about static reflection and code injection and centered the talk on
   how one could replace dynamic polymorphism using these features.
@@ -44,13 +44,13 @@ must see talks and why, I also include a link to my live tweets on each talk:
   On top of that the features feel pretty powerful and after watching the talk you are itching to get your hands on them
   because they just look awesome.
 
-- [Just-in-time compilation](https://twitter.com/shafikyaghmour/status/1305593864598634496)
+- [Just-in-time compilation](https://twitter.com/shafikyaghmour/status/1305593864598634496)([video](https://www.youtube.com/watch?v=tWvaSkgVPpA))
 
    [@jfbastien](https://twitter.com/jfbastien) gave an overview of the field of Just-in-time compilation as seen through the
    view of several key papers in the field. He covered a lot of different papers each with their own interesting insights
    combined with JF's experience in the field made for a wonderful talk.
 
-- [Just-in-Time The Next Big Thing?](https://twitter.com/shafikyaghmour/status/1306296651091292160)
+- [Just-in-Time The Next Big Thing?](https://twitter.com/shafikyaghmour/status/1306296651091292160)([video](https://www.youtube.com/watch?v=I3ov8HcdVKw))
 
   [@ben_deane](https://twitter.com/ben_deane) and [@krisjusiak](https://twitter.com/krisjusiak) started the talk with a quick
   introduction to current JIT implementations and then moved into what is proposed by
@@ -60,7 +60,7 @@ must see talks and why, I also include a link to my live tweets on each talk:
   examples. Regardless it was a great talk and I will just have to go back and study the details of the later examples to
   fully get them.
 
-- [Structure and Interpretation of Computer Programs: SICP](https://twitter.com/shafikyaghmour/status/1306973453262569474)
+- [Structure and Interpretation of Computer Programs: SICP](https://twitter.com/shafikyaghmour/status/1306973453262569474)([video](https://www.youtube.com/watch?v=7oV7hiAsVTI))
 
   [@code_report](https://twitter.com/code_report) talked about the [classic computer science book SICP](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
   and why it matters. Some quotes:
