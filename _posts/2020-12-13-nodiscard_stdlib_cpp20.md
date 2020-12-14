@@ -11,8 +11,8 @@ title: C++20 and [[nodiscard]] in the library
 #include <vector>
 
 int main() {
-  std::vector<int>{}.empty(); // Should we recieve a diagnostic here?
-                              // Diagnsotic is either a warning or an error.
+  std::vector<int>{}.empty(); // Should we receive a diagnostic here?
+                              // Diagnostic is either a warning or an error.
 }
 ```
 
