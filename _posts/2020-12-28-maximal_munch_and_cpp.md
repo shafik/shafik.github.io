@@ -123,12 +123,12 @@ How about [this fun case](https://twitter.com/shafikyaghmour/status/116299062516
 
 ```
 int x = 0x8000000e-0xf0;
-               //^^ Is this the end of hexideciaml-integer-literal followed by
-               //   a minus and another hexidecimal literal
-               // or is this an ill-formed hexidecimal-floating-literal 
+               //^^ Is this the end of hexadeciaml-integer-literal followed by
+               //   a minus and another hexadecimal literal
+               // or is this an ill-formed hexadecimal-floating-literal 
 ```
 
-For this case it might be worth taking a detour to explain the difference between a *preprocessing token* and a *token*. In [proprocessing phases two to six](http://eel.is/c++draft/lex.phases) the preprocessor is dealing with *preprocessing tokens* which are coarser categories then *tokens*. For example *identifiers* and *keywords* are *identifiers* during phases two to six, *integer literals* and *floating-point literals* are *pp-numbers* and *operators* and *punctuation* are *preprocessing-op-or-punc* during phases two to six.
+For this case it might be worth taking a detour to explain the difference between a *preprocessing token* and a *token*. In [preprocessing phases two to six](http://eel.is/c++draft/lex.phases) the preprocessor is dealing with *preprocessing tokens* which are coarser categories then *tokens*. For example *identifiers* and *keywords* are *identifiers* during phases two to six, *integer literals* and *floating-point literals* are *pp-numbers* and *operators* and *punctuation* are *preprocessing-op-or-punc* during phases two to six.
 
 The grammar for a [pp-number](http://eel.is/c++draft/lex#nt:pp-number):
 
@@ -161,7 +161,7 @@ V V.....V  V  V
            sign
 ```
 
-During [lexical phase 7](http://eel.is/c++draft/lex.phases#1.7) each *preprocessor token* is converted to a [token](http://eel.is/c++draft/lex.token) but `0x8000000e-0xf0` is not a valid [literal](http://eel.is/c++draft/lex.literal.kinds#nt:literal), therefore ill-formed. On the other hand `0x8000000e - 0xf0` would result in three proprocessor tokens:
+During [lexical phase 7](http://eel.is/c++draft/lex.phases#1.7) each *preprocessor token* is converted to a [token](http://eel.is/c++draft/lex.token) but `0x8000000e-0xf0` is not a valid [literal](http://eel.is/c++draft/lex.literal.kinds#nt:literal), therefore ill-formed. On the other hand `0x8000000e - 0xf0` would result in three preprocessor tokens:
 
 ```
 0x8000000e -> pp-number
