@@ -141,7 +141,8 @@ struct A{
 
 I am not to happy to report that zero was [used to avoid having to add a new keyword so close to release](https://twitter.com/shafikyaghmour/status/1221599185436200960?s=20). There was nothing technical preventing an alternative such as `pure` or `abstract` other than the difficulty of getting a new keyword accepted so close to release.
 
-So things brings an end to zeros super fun, but it does leave us with one burning question (*How does one turn a meme into an article*):
+So things brings an end to zeros super fun, but it does leave us with one burning question (*How does one turn a meme into an article*) also see
+[original meme that inspired this post](https://twitter.com/shafikyaghmour/status/1266393104824717312):
 
 
 ![Is this a](https://pbs.twimg.com/media/EZJrUe2U8AAzTtE?format=jpg&name=medium)
