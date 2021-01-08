@@ -20,7 +20,7 @@ and the answer is that it is required in position `C`.
 Previous to C++20 it would have been required in all three places but the proposal [Down with typename!](http://wg21.link/p0634)
 changed that. Previously as noted in the proposal:
 
->If X<T>::Y — where T is a template parameter — is to denote a type, it must be preceded by the keyword typename; otherwise, it is assumed to denote a name producing an expression. There are currently two notable exceptions to this rule: base-specifiers and mem-initializer-ids. For example:
+>If X\<T\>::Y — where T is a template parameter — is to denote a type, it must be preceded by the keyword typename; otherwise, it is assumed to denote a name producing an expression. There are currently two notable exceptions to this rule: base-specifiers and mem-initializer-ids. For example:
 >
 >
 >  ```
