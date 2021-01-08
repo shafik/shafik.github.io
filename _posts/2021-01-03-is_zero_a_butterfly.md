@@ -12,7 +12,7 @@ story about zeros super powers in C++.
 
 What is super about zero?
 
-Well the first some fun trivia. Zero is an *octal literal*,
+Well first some fun trivia. Zero is an *octal literal*,
 see the [grammar for integer literals](http://eel.is/c++draft/lex.icon#nt:octal-literal):
 
 ```
@@ -21,7 +21,7 @@ octal-literal:
   octal-literal 'opt octal-digit
 ```
 
-It is only single digit *octal literal*, it won't help you do anything special but might impress some of your friends.
+It is the only single digit *octal literal*, it won't help you do anything special but might impress some of your friends.
 
 Zero is a kind of super-literal (not official terminology), it can be converted to all sort of types, some mundane but many 
 quite surprising. Most would not be surprised that the following code is valid:
@@ -92,7 +92,7 @@ template< class T, std::size_t N >
 T* end( T (&array)[N] );
 ```
 
-but C-syle arrays are not idiomatic C++ and we should prefer using `std::array` or `std::vector` but often for generic 
+but C-style arrays are not idiomatic C++ and we should prefer to use `std::array` or `std::vector` but often for generic 
 code we need to support C-style arrays, as the `std::end` example above.
 
 Ok, so what about `std::string`? You may be saying, no way, zero can't be a `std::string` can it? 
@@ -141,7 +141,7 @@ struct A{
 
 I am not to happy to report that zero was [used to avoid having to add a new keyword so close to release](https://twitter.com/shafikyaghmour/status/1221599185436200960?s=20). There was nothing technical preventing an alternative such as `pure` or `abstract` other than the difficulty of getting a new keyword accepted so close to release.
 
-So things brings an end to zeros super fun, but it does leave us with one burning question (*How does one turn a meme into an article*) also see
+So this brings an end to zeros super fun, but it does leave us with one burning question (*How does one turn a meme into an article*) also see
 [original meme that inspired this post](https://twitter.com/shafikyaghmour/status/1266393104824717312):
 
 
