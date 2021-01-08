@@ -91,3 +91,4 @@ void foo(const std::vector<T> &v)
  
     typename std::vector<T>::const_iterator typedef iter_t; // typename required
 }
+```
