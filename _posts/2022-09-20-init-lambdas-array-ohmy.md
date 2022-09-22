@@ -29,11 +29,19 @@ be explored and addressed.
 
 The reason this matters is that allowing this would complicate the compiler. It would require unlimited look ahead in order
 to disambiguate. Introducing this complexity to solve the few cases where it mattered are not compelling enough to compensate for
-the additional complexity. In order to disambiguate you can add parenthesizes. For example:
+the additional complexity. For example:
 
 ```cpp
 arr[[someSetOfCharacter](){return 4;}()]
   // ^ unlimited lookahead needed to decide if this is a capture of attribute-list 
+```
+
+Ultimately, in order to disambiguate you can add parenthesizes:
+
+```cpp
+return arr[ ( [](){return 4;}() ) ];
+         // ^                   ^
+	 // Added parenthesizes make this valid.
 ```
 
 This in some ways is similar to maximal munch type problems. Which I have [written about previously](https://shafik.github.io/c++/maximal%20munch/2020/12/28/maximal_munch_and_cpp.html).
