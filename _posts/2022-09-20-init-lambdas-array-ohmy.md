@@ -36,7 +36,7 @@ arr[[someSetOfCharacter](){return 4;}()]
   // ^ unlimited lookahead needed to decide if this is a capture of attribute-list 
 ```
 
-This in some ways is similar to maximal munch type problems. Which I have [written about previously](https://shafik.github.io/c++/maximal%21munch/2020/12/28/maximal_munch_and_cpp.html).
+This in some ways is similar to maximal munch type problems. Which I have [written about previously](https://shafik.github.io/c++/maximal%20munch/2020/12/28/maximal_munch_and_cpp.html).
 The most infamous pre C++11 case of maximal munch was that of closing template parameter lists:
 
 ```cpp
