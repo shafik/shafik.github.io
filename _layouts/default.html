@@ -110,6 +110,17 @@ layout: compress
         ga('create', '{{ site.google_analytics }}', 'auto');
         ga('send', 'pageview');
       </script>
+
+      <!-- New Google Analytics, the above is the older version -->
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1MW2P11B1P"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1MW2P11B1P');
+      </script>
     {% endif %}
   </head>
   <body>
