@@ -4,8 +4,6 @@ categories: [C++]
 title: Enums In C++, Choice is Oft Beguiled 
 ---
 
-# Enums In C++, Choice is Oft Beguiled
-
 ## The Basics
 
 In C++ we have several different options for *enum* types. These different choices affect the scope the *enumerators* are available in, the range of underlying values we can use and even whether setting certain values to an *enum* invokes *undefined behavior*. We are going to explore the different choices available and the consequences of those choices. I will follow this post with a second one exploring some of clang's implementation details, undefined behavior, UBSan, and constant expressions.
