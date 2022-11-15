@@ -1,11 +1,11 @@
 [
 	{
-		"slug": "LLDB",
-		"name": "LLDB",
+		"slug": "clang",
+		"name": "clang",
 		"image": "placeholder.jpg",
-		"url": "https://github.com/llvm-mirror/lldb",
+		"url": "https://github.com/llvm/llvm-project/",
 		"date": "",
-		"tags": ["LLDB","LLVM","C++"]
+		"tags": ["CLANG","LLVM","C++"]
 	},
 	{
 		"name": "Listing of C++ Youtube channels for conferences, user groups and misc.",

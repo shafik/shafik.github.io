@@ -2,11 +2,10 @@ title: Shafik Yaghmour's Blog
 description: Blog about C++, C, Undefined Behavior and Compilers
 author: Shafik Yaghmour
 github: https://github.com/shafik
-about: Compiler Dev(LLDB) interested in C++, C, compilers and undefined behavior.
+about: Compiler Engineer at Intel. This is a personal blog.  The opinions stated here are my own, not those of my company. 
 disqus_shortname: cpp-and-ub-shafik 
 google_analytics: UA-129799970-1
 avatar_url: /static/img/avatar.jpg
-
 enableTags: true
 tagarray: []
 
@@ -44,14 +43,24 @@ baseurl: ""
 paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
+
+
+# Build settings
 markdown: kramdown
-gems:
+theme: minima
+plugins:
+  - jekyll-feed
   - jekyll-paginate
   - jekyll-gist
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['production']
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
