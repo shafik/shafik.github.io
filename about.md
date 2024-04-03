@@ -8,4 +8,4 @@ Compiler Engineer at Intel. This is a personal blog. The opinions stated here ar
 
 [Stackoverflow contributor](https://stackoverflow.com/users/1708801/shafik-yaghmour) in C++, C tags, [Martial Artist](https://www.meetup.com/Bay-Area-Yin-Style-Baguazhang/), Book Worm and Dad. Currenly working clang front-end. 
 
-email: 
+Also find me on [Mastodon](https://hachyderm.io/@shafik)

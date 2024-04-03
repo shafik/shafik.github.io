@@ -49,7 +49,7 @@ A f(){return {};}
 
 // A function taking as an argument
 // a function pointer to a function
-// returnung a type A
+// returning a type A
 void g(T);
 
 // An example of calling g with f
@@ -101,7 +101,7 @@ void h() {
 
 ## Layer 3
 
-Now we can add the final layer which gets us to the original code the question was about. All we are doing is adding another funcition pointer layer. We will again use a stepping stone type, in this case `T4`:
+Now we can add the final layer which gets us to the original code the question was about. All we are doing is adding another function pointer layer. We will again use a stepping stone type, in this case `T4`:
 
 ```cpp
 // We have seen this previously
