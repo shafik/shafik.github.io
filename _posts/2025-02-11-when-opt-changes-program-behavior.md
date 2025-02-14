@@ -171,7 +171,7 @@ We will see that the [compilers](https://godbolt.org/z/f6aEacf9e) flag the *sign
       |                               ~~^~~~~~~
 ```
 
-Another case we can catch using this methods that other catch us using the inactive memeber of a *union*. Often referred to
+Another case we can catch using this methods that other catch us using the inactive member of a *union*. Often referred to
 as type punning (*see string aliasing reference above*), the following is an example of punning a *float* value to an *int*
 value via a *union* [live example](https://godbolt.org/z/n3MYf4McM):
 
