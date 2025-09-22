@@ -1,10 +1,10 @@
 ---
 layout: post
 categories: [software development]
-title: Why Summaries are Important to Pull Request
+title: Why Good Summaries are Important to a Pull Request
 ---
 
-# Why Summaries are Important to Pull Request
+# Why Good Summaries are Important to a Pull Request
 
 Code Reviewers are a precious resource in an open source project, often they have limited bandwidth. A critical goal when
 drafting a Pull Request (PR) should be, how does one minimize the amount of time it takes a reviewer to do a review. Especially 
