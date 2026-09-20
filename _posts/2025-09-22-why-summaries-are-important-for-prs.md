@@ -41,6 +41,7 @@ Often folks who are looking at a problem for a while don't realize that the revi
 code looks obvious to you may not be obvious to the code reviewer. A good explanation of the bug and solution can go a long 
 way in speeding up the review. 
 
+
 ### What to Include for a Bug Fix PR
 
 - In addition to including a reference to any bug reports (if any), we should also summarize the bug itself. The summary should be put in the context of the code changes.
@@ -62,6 +63,22 @@ understand the problem as well as you thought you did. These are all realization
 solution. Often you will realize there is a flaw or you need more tests. Often one will catch other problems during a new round of 
 testing. This is excellent, you have improved your code and you saved your code reviewer(s) time and hopefully it will reduce 
 the number of iterations on the review. 
+
+This is backed up by a study [showed that author annotating their code](http://viewer.media.bitpipe.com/1253203751_753/1284482743_310/11_Best_Practices_for_Peer_Code_Review.pdf) before
+review reduced overall defects in the code. They described annotations as:
+
+> Annotations guide the reviewer through the changes, showing which files to look at first and defending
+the reason and methods behind each code modification.
+
+A summary can include all of this information but many code review tools allow an author to make comments directly in the review against specific lines in the PR.
+The report go on to say:
+
+> Our theory was that because the author has to re-think and explain the changes
+during the annotation process, the author will himself uncover many of the defects
+before the review even begins, thus making the review itself more efficient. As
+such, the review process should yield a lower defect density, since fewer bugs
+remain. Sure enough, reviews with author preparation have barely any defects
+compared to reviews without author preparation.
 
 ## Poor Summaries have Outsized Impacts Downstream
 
