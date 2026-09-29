@@ -19,7 +19,7 @@ around what the type of an integer literal will be in various cases e.g.
 // https://cppinsights.io/s/0ffee264
 void f() {
   auto x1 = 1;   // Integer literal 1 will have type int
-  auto x2 = 1U;  // Integer literal 1L will have type unsigned int
+  auto x2 = 1U;  // Integer literal 1U will have type unsigned int
   auto x3 = 1L;  // Integer literal 1L will have type long int
   auto x4 = 1UL; // Integer literal 1UL will have type unsigned long int
 }
