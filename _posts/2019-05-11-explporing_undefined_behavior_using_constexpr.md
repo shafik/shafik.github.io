@@ -167,7 +167,7 @@ The standard tells us that case `1` is impelmentation defined, see [\[conv.integ
 
 >If the destination type is signed, the value is unchanged if it can be represented in the destination type; otherwise, the value is implementation-defined.
 
-The standard tells us case `2` and `3` are undefined behavior, see [\[conv.dobule\]p1](https://timsong-cpp.github.io/cppwp/n4659/conv.double#1):
+The standard tells us cases `2` and `3` are undefined behavior, see [\[conv.double\]p1](https://timsong-cpp.github.io/cppwp/n4659/conv.double#1):
 
 >A prvalue of floating-point type can be converted to a prvalue of another floating-point type. If the source value can be exactly represented in the destination type, the result of the conversion is that exact representation. If the source value is between two adjacent destination values, the result of the conversion is an implementation-defined choice of either of those values. **Otherwise, the behavior is undefined.**
 
